@@ -1,4 +1,10 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>My New Hugo Site</title><link>https://example.org/algolia.json</link><description>Recent content from My New Hugo Site</description><generator>Hugo</generator><language>zh-cn</language><managingEditor>xxx@example.com (D-Sketon)</managingEditor><webMaster>xxx@example.com (D-Sketon)</webMaster><copyright>本博客所有文章除特别声明外，均采用 BY-NC-SA 许可协议。转载请注明出处！</copyright><lastBuildDate>Sat, 31 Jan 2026 00:37:21 +0800</lastBuildDate><atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml"/><item><title>初记</title><link>https://example.org/post/%E5%88%9D%E8%AE%B0/</link><pubDate>Sat, 31 Jan 2026 00:19:42 +0800</pubDate><author>xxx@example.com (D-Sketon)</author><guid>https://example.org/post/%E5%88%9D%E8%AE%B0/</guid><description>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>My New Hugo Site</title><link>https://example.org/algolia.json</link><description>Recent content from My New Hugo Site</description><generator>Hugo</generator><language>zh-cn</language><managingEditor>xxx@example.com (D-Sketon)</managingEditor><webMaster>xxx@example.com (D-Sketon)</webMaster><copyright>本博客所有文章除特别声明外，均采用 BY-NC-SA 许可协议。转载请注明出处！</copyright><lastBuildDate>Sun, 01 Feb 2026 16:28:31 +0800</lastBuildDate><atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml"/><item><title>使用Github Action实现自动化部署</title><link>https://example.org/post/%E4%BD%BF%E7%94%A8github-action%E5%AE%9E%E7%8E%B0%E8%87%AA%E5%8A%A8%E5%8C%96%E9%83%A8%E7%BD%B2/</link><pubDate>Sun, 01 Feb 2026 15:44:48 +0800</pubDate><author>xxx@example.com (D-Sketon)</author><guid>https://example.org/post/%E4%BD%BF%E7%94%A8github-action%E5%AE%9E%E7%8E%B0%E8%87%AA%E5%8A%A8%E5%8C%96%E9%83%A8%E7%BD%B2/</guid><description>
+<![CDATA[<h1>使用Github Action实现自动化部署</h1><p>作者：D-Sketon（xxx@example.com）</p>
+        
+          <p>记录一次使用github action实现自动化部署的过程。</p>
+<p>之前已经完成了博客静态文件的自动部署脚本，但是还是需要手动运行Publish.sh脚本文件，在本地进行构建，然后push到github.io页面进行更新。遂想将此过程自动化完成，即只需要想blog仓库中提交commit，然后自动触发部署过程。一开始是想通过云服务器做中间层，当github收到commit后，触发webhook，像服务器发送一个http请求，然后服务器收到请求后在云端自动执行脚本进行构建。后面发现github自带CICD的流水线功能，即github action，于是直接使用此种方法。</p>
+        
+        <hr><p>本文2026-02-01首发于<a href='https://example.org/'>My New Hugo Site</a>，最后修改于2026-02-01</p>]]></description><category>计算机</category></item><item><title>初记</title><link>https://example.org/post/%E5%88%9D%E8%AE%B0/</link><pubDate>Sat, 31 Jan 2026 00:19:42 +0800</pubDate><author>xxx@example.com (D-Sketon)</author><guid>https://example.org/post/%E5%88%9D%E8%AE%B0/</guid><description>
 <![CDATA[<h1>初记</h1><p>作者：D-Sketon（xxx@example.com）</p>
         
           <p>现在是2026年的0点22分，我在这里写下我的第一篇博客，该怎么说呢，感觉现在才开始建立网站、记录生活、写技术博客稍微有点晚了。为什么没有在大二大三的时候抽空弄一弄呢？感觉是因为前几年的LLM不够聪明，知识库并不充分，学习的成本代价有点高，需要到处查查网站、看看视频。不过我觉得这些并不是阻碍我学习新内容的困难，更多的原因在于自身的主观能动性与自驱力，我总是懒于思考、懒于主动尝试，导致没有充分利用好时间，每次都只学了半瓢水，总觉得差不多就可以了，却并没有真正掌握知识。这是我目前要解决的最大问题。</p>
@@ -6,7 +12,8 @@
         <hr><p>本文2026-01-31首发于<a href='https://example.org/'>My New Hugo Site</a>，最后修改于2026-01-31</p>]]></description><category>随便写写</category></item><item><title>博客配置</title><link>https://example.org/post/%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE/</link><pubDate>Fri, 30 Jan 2026 23:33:19 +0800</pubDate><author>xxx@example.com (D-Sketon)</author><guid>https://example.org/post/%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE/</guid><description>
 <![CDATA[<h1>博客配置</h1><p>作者：D-Sketon（xxx@example.com）</p>
         
-          <p>本文针对 v1.0.0+ 版本的 hexo-theme-reimu 主题，介绍如何定制你的 hexo-theme-reimu。</p>
+          <a href="https://github.com/D-Sketon/hugo-theme-reimu" title="hugo-theme-reimu" target="_blank">hugo-theme-reimu</a>
+<p>本文针对 v1.0.0+ 版本的 hexo-theme-reimu 主题，介绍如何定制你的 hexo-theme-reimu。</p>
 <h2 id="-动态适配主题色-v170-实验性功能">
 <a class="header-anchor" href="#-%e5%8a%a8%e6%80%81%e9%80%82%e9%85%8d%e4%b8%bb%e9%a2%98%e8%89%b2-v170-%e5%ae%9e%e9%aa%8c%e6%80%a7%e5%8a%9f%e8%83%bd"></a>
 <a href="https://d-sketon.github.io/20241124/hexo-theme-reimu-customize/#%E5%8A%A8%E6%80%81%E9%80%82%E9%85%8D%E4%B8%BB%E9%A2%98%E8%89%B2-v170-%E5%AE%9E%E9%AA%8C%E6%80%A7%E5%8A%9F%E8%83%BD"></a> 动态适配主题色 (v1.7.0+ 实验性功能)

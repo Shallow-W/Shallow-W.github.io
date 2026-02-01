@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Test on My New Hugo Site</title><link>https://example.org/categories/test/</link><description>Recent content from My New Hugo Site</description><generator>Hugo</generator><language>zh-cn</language><managingEditor>xxx@example.com (D-Sketon)</managingEditor><webMaster>xxx@example.com (D-Sketon)</webMaster><copyright>本博客所有文章除特别声明外，均采用 BY-NC-SA 许可协议。转载请注明出处！</copyright><lastBuildDate>Sat, 31 Jan 2026 00:04:12 +0800</lastBuildDate><atom:link href="https://example.org/categories/test/index.xml" rel="self" type="application/rss+xml"/><item><title>博客配置</title><link>https://example.org/post/%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE/</link><pubDate>Fri, 30 Jan 2026 23:33:19 +0800</pubDate><author>xxx@example.com (D-Sketon)</author><guid>https://example.org/post/%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE/</guid><description>
 <![CDATA[<h1>博客配置</h1><p>作者：D-Sketon（xxx@example.com）</p>
         
-          <p>本文针对 v1.0.0+ 版本的 hexo-theme-reimu 主题，介绍如何定制你的 hexo-theme-reimu。</p>
+          <a href="https://github.com/D-Sketon/hugo-theme-reimu" title="hugo-theme-reimu" target="_blank">hugo-theme-reimu</a>
+<p>本文针对 v1.0.0+ 版本的 hexo-theme-reimu 主题，介绍如何定制你的 hexo-theme-reimu。</p>
 <h2 id="-动态适配主题色-v170-实验性功能">
 <a class="header-anchor" href="#-%e5%8a%a8%e6%80%81%e9%80%82%e9%85%8d%e4%b8%bb%e9%a2%98%e8%89%b2-v170-%e5%ae%9e%e9%aa%8c%e6%80%a7%e5%8a%9f%e8%83%bd"></a>
 <a href="https://d-sketon.github.io/20241124/hexo-theme-reimu-customize/#%E5%8A%A8%E6%80%81%E9%80%82%E9%85%8D%E4%B8%BB%E9%A2%98%E8%89%B2-v170-%E5%AE%9E%E9%AA%8C%E6%80%A7%E5%8A%9F%E8%83%BD"></a> 动态适配主题色 (v1.7.0+ 实验性功能)
